@@ -16,7 +16,7 @@ def main():
         def process(fp,d,a,b):
             for line in fp:
                 f=line.split(d)
-                print(*f[a-1:b], end='')
+                print(d.join(f[a-1:b]), end='')
         process(f,d,a,b)
 
 if __name__ == "__main__":

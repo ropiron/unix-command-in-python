@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import sys
+for a in sys.argv[1:]:
+    with open(a) as f:
+        print(f.read(),end='')

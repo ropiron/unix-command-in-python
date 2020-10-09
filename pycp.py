@@ -2,7 +2,7 @@
 
 import os
 import argparse
-import fileinput
+# import fileinput
 import shutil
 
 def main():
@@ -13,7 +13,6 @@ def main():
     args = parser.parse_args()
     a=args.filenames[0]
     b=args.filenames[1]
-    # with fileinput.input(a) as f:
     if os.path.isfile(a):
         shutil.copy(a,b)
     else:

@@ -2,8 +2,9 @@
 ** DONE cat
 ** DONE cut
 ** TODO cd
-** cp
+** TODO cp
 ** echo
+** ls
 ** grep
 ** less
 ** mkdir

@@ -13,7 +13,7 @@ def main():
     args = parser.parse_args()
     a=args.filenames[0]
     b=args.filenames[1]
-    if os.path.isfile(a):
+if os.path.isfile(a):
         shutil.copy(a,b)
     else:
         shutil.copytree(a,b)

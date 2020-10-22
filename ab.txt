@@ -1,3 +1,0 @@
-aaa bbb
-ccc ddd
-aaa bbb ccc ddd eee ddd abc def ghi

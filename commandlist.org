@@ -2,8 +2,8 @@
 ** DONE cat
 ** DONE cut
 ** TODO cd
-** TODO cp
-** echo
+** DONE cp
+** DONE echo
 ** ls
 ** grep
 ** less
@@ -15,7 +15,7 @@
 ** touch
 ** paste
 ** fold
-** head
+** DONE head
 ** tail
 ** rev
 ** nl
@@ -25,7 +25,7 @@
 ** tac
 ** tr
 ** uniq
-** wc
+** DONE wc
 ** who
 ** xargs
 ** xxd
